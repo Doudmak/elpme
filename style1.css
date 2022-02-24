@@ -1,0 +1,249 @@
+/*-------------------- Le corps de la page ------------------- */
+body
+{
+	margin: 0px;
+}
+
+.head1
+{
+	padding-top:  100px;	
+	padding-left : 50px;
+	padding-right : 50px;
+	padding-bottom : 100px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-image: url(/Image/doctor4.jpg);
+	background-size: cover; 
+}
+.group_hospital
+{
+	display: flex;
+	align-items: center;
+}
+
+
+#name_group_hospital
+{
+	font-size: 50px;
+	font-family: Cabin;
+	letter-spacing: 2px;
+	font-weight: bolder;
+	margin: 0px;
+	padding-right: 5px;
+}
+
+
+
+#name_group_description_hospital
+{
+	font-size: 15px;
+	font-family: calibri;
+	font-weight: bolder;
+	color: grey;
+	margin: 0px;
+}
+
+.name_doctor
+{
+	text-decoration: underline;
+}
+
+.head2
+{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 50px;
+	padding-right: 50px;
+	align-items: center;
+	padding-bottom: 50px;
+	/*background-color: #EFF2EF;*/
+}
+.group_title
+{
+	padding-left : 50px;
+	font-family: calibri;
+	font-weight: bolder;
+}
+
+#name_group 
+{
+	font-size: 30px;
+	margin: 0px;
+}
+
+#name_group_description 
+{
+	font-size: 20px;
+	color: grey;
+	margin: 0px;
+}
+.bonjour
+{
+	display: flex;
+	align-items: center;
+}
+.bonjour img 
+{
+	height: 50px;
+	border-radius: 50%;
+}
+
+#name_group_description_hospital
+{
+	font-size: 19px;
+	padding-right: 10px;
+}
+
+.group_carte
+{
+	border-top: 1px solid #CACFD6;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 50px;
+	flex-wrap: wrap;
+	margin-left : 50px;
+	margin-right : 50px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #CACFD6;
+	/*background-color: #CED3DC;*/
+
+}
+
+.carte
+{
+	background-color: #F7EBEC;
+	width : 240px;
+	height: 340px;
+	/*border: 4px solid #0875E1;*/
+	border-radius: 10px;
+	margin: 20px;
+	text-decoration: none;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+	/*box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;*/
+}
+
+
+.photo_profil 
+{
+	display: flex;
+	justify-content: center;
+}
+.photo_profil img
+{
+	margin: 45px;
+	margin-bottom: 25px;
+	width: 130px;
+	height: 130px;
+}
+
+.title_description, .title_description p
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: calibri;
+	font-weight: bolder;
+	font-size: 19px;
+	margin-left :10px;
+	margin-right: 10px;
+	color: black;
+}
+
+.description p
+{
+	font-family: calibri;
+	font-weight: bolder;
+	color: grey;
+	font-size: 11gpx;
+	margin-top:2px ;
+	margin-left :33px;
+	margin-right: 33px;
+	text-align: center;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+.carte
+{
+	transition: transformer 250ms ;
+}
+
+.carte:hover
+{
+	transition: 450ms;
+	transform: translateY(-30px);
+}
+
+.barre1
+{
+ 	margin: 10px;
+ 	border-left: 3px solid blue;
+}
+
+.barre2
+{
+	 margin: 10px;
+ 	border-left: 3px solid lightgreen;
+
+}
+
+.barre3
+ {
+ 	margin: 10px;
+ 	border-left: 3px solid lightsalmon;
+ }
+ .barre4
+ {
+ 	margin: 10px;
+ 	border-left: 3px solid fuchsia;
+ }
+
+
+
+
+
+
+/* -------------------------- Pied de page -------------------------- */
+li
+{
+	list-style: none;
+	font-family: calibri;
+}
+
+h3
+{
+	font-family: calibri;
+	font-size: 22px;	
+}
+
+ul
+{
+	padding: 0px;
+}
+
+
+
+footer
+{
+	display: flex;
+	justify-content: space-around;
+	background-color: #EFF2EF;
+}
+
+.foot
+{
+	display: flex;
+}
+.contact
+{
+	padding-right: 30px;
+}
+
+.espace
+{
+	padding-bottom: 10px;
+}

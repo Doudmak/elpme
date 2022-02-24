@@ -1,0 +1,153 @@
+body
+{
+	margin: 0px;
+}
+#name_group
+{
+	font-size: 40px;
+	font-family: calibri;
+	font-weight: bolder;
+	margin: 0px;
+}
+#name_group_description
+{
+	font-size: 20px;
+	font-family: calibri;
+	font-weight: bolder;
+	color: grey;
+	margin: 0px;
+}
+p
+{
+	margin: 0px;
+}
+.head1
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #EFF2EF;
+	padding-top:  50px;
+	padding-left : 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+}
+.bloc_card
+{
+	padding-top:  100px;
+	padding-left : 50px;
+	padding-right: 50px;
+	padding-bottom: 100px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background-image: url(/Image/doctor5.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.card
+{
+	/*border: 1px solid black;*/
+	height: 300px;
+	width: 300px;
+	border-radius: 15px;
+	background-color: #F7EBEC;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+	margin: 40px;
+	margin-right: 60px;
+}
+
+.text
+{
+	font-family: calibri;
+
+}
+
+.top
+{
+	display: flex;
+	justify-content: center;
+	margin-top: 5px;
+	margin: 15px;
+}
+
+.div_1
+{
+	display: flex;
+	justify-content: center;
+	margin: 15px;
+}
+
+#title
+{
+	font-size: 30px;
+	font-weight: bolder;
+	color: black;
+	font-family: calibri;
+	margin: 10px;
+}
+
+#urg1
+{
+	padding-left: 7px;
+}
+.padd
+{
+	padding-left: 5px;
+}
+.bold
+{
+	font-weight: bolder;
+}
+
+.date
+{
+	display: flex;
+	align-items: center;
+	padding-left: 5px;
+	margin: 0px;
+}
+.div_1
+{
+	display: flex;
+	align-items: center;
+}
+#enter_matri
+{
+	height: 30px;
+	border-radius: 10px;
+	border: 0.5px solid black;
+}
+
+#lieu
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.img
+{
+	height: 110px;
+	width: 300px;
+	background-image: url(/Image/cardiologie2.jpg);
+	background-position: contain;
+}
+
+.img1
+{
+	height: 110px;
+	width: 300px;
+	background-image: url(/Image/reanimation2.jpg);
+	background-position: contain;
+}
+
+.img2
+{
+	height: 110px;
+	width: 300px;
+	background-image: url(/Image/surgery1.jpg);
+	background-position: contain;
+}

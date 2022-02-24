@@ -1,0 +1,4 @@
+- faire le logo
+- Faire les cartes
+- trouver les couleurs appropriés
+- faire un glow sur le logo

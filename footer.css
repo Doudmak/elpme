@@ -1,0 +1,70 @@
+
+/* -------------------------- Pied de page -------------------------- */
+
+a
+{
+	text-decoration: none;
+	color: black;
+}
+
+li
+{
+	list-style: none;
+	font-family: calibri;
+	margin-bottom: 3px;
+}
+
+h3
+{
+	font-family: calibri;
+	font-size: 22px;	
+}
+
+ul
+{
+	padding: 0px;
+}
+
+
+
+footer
+{
+	display: flex;
+	justify-content: space-around;
+	background-color: #EFF2EF;
+}
+
+.foot
+{
+	display: flex;
+}
+.contact
+{
+	padding-right: 30px;
+}
+.navigation
+{
+	padding-right: 30px;
+}
+
+.espace
+{
+	padding-bottom: 10px;
+}
+
+a
+{
+	text-decoration: none;
+	color :black;
+}
+
+#div_logo_img
+{
+	display: flex;
+	align-items: center;
+}
+
+#logo_img
+{
+	height: 135px;
+}

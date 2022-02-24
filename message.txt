@@ -1,0 +1,151 @@
+<!-- 
+<p> = Paragraphe
+<em> = Italique
+<Strong> = Gras
+<mark> = Surligner 
+<b> = Gras (inutile)
+<i> = italique (inutile)
+<s> = Raté
+<h1> = Titre
+<br> = Revenir a la ligne
+<blockquote> = Tabulation
+<details> = anti spoil
+<a href = "https://lien.com" +[(Attribut) -> title="..." ou target = "_blank"] > [nom sur site]</a>
+<ul> = liste ordonné
+<ol> = liste pas ordonné
+<div> = groupe + attribut id = "" + class = " ";
+<table> =  tableau 
+	<tr> = ligne trow
+		<td> = ligne t data
+<form action="">
+
+balise technique :
+
+	<code> = Pour coder sur une page
+	<samp> = affiche la sortie d'un programme
+	<kbd> = raccourci clavier
+	<meter> : value (valeur)
+			  min(valeur minimale)
+			  max(valeur maximale) 
+			  high(seuil ou la veleur devient haute)
+			  low(seuil ou la veleur devient " basse ")
+			  high(seuil ou la veleur devient optimale)
+	<output>  = sortie d'un resultat (Pour formule)
+	<pre> = texte affichait identitique à celui de l'editeur de texte .
+	<ruby> = Pour langue etrangere
+		<rt> = Pour prononciation de caractere d'asie orientale
+	<time> = pour faire comprendre que c'est une date +ou <time datetime = >
+	var = affecter une variable
+	<sup> = pour avoir x² ou autre exponentielle.
+
+
+Liste : 
+
+	<ul> = liste pas ordonné 
+		<li> = texte dans liste
+	<ol> = liste ordonné + attribut : reversed | start | type : 
+		<li> = texte dans liste
+
+Tableau :
+
+	<table></table> = creation du tableau
+		<caption></caption> = titre tableau
+		<thead></thead> = en tete tableau
+		<tbody></tbody> = corps du tableau
+		<tfoot></tfoot> = pied du tableau
+		<tr></tr> = ligne du tableau
+			<td></td> = colonne du tableau + attribut : rowspan = nombre de colonne | colspan = nombre de ligne | abbr = abbreviation | id = identifiant | headers =  lier un identifiant
+		<colgroup></colgroup> = creer un groupe
+			<col> (par colonne) + attribut :  class = "">
+
+formulaire : 
+
+<form></form> = formulaire + attribut : method = "post" + action = "" + name = "" + target = "_blank" + autocomplete= "on"( pour completer automatiquement avec info users)+ enctype = "" + accept-charset "UTF-8" + patter = "" (pour verifier mon champs) + required (obligatoire) + 
+
+		<input type="" name="username" + placeholder = ""(indice d'inscription de  champs)>
+			
+			-> type :  text / password / Checkbox / radio/ color -> + Value : #FFFFFF / date /datetime-local / email / tel / month / week / search /range | number -> min="" + max= "" + step ="" / hidden / submit / reset
+
+<fieldset></fieldset> = Encadre un formulaire
+	<legend></legend> = Pour mettre une legende sur l'encadrement
+
+<textarea></textarea> = creer une aire de texte +  attribut :  name ="" / rows = "" / cols = " "/
+<select></select> = Menu deroulant + Attribut :
+	
+	<option></option> =  choix dans menu deroulant + attribut :  value = ""
+ou
+
+	<optgroup></optgroup> = Regroupe des choix du menu deroulant + Attribut : label ""( pouir le nom de groupe)
+
+For <datalist></datalist> = <datalist id="ice-cream-flavors">	|
+    							<option value="Chocolate">		| A eviter priviligiez select
+							    <option value="Coconut">		|
+							    <option value="Mint">
+							    <option value="Strawberry">
+							    <option value="Vanilla">
+							</datalist>
+		
+<button></button> = Bouton +  attribut : formmethod ="" / formaction"" (direction) / type "Submit" / 
+
+Image : 
+
+<img src=""> = image + source + attribut : width = ""(taille px) / alt = ""(alternatif) / heigth= "auto" ou "chiffre"(taile px)/ longdesc = "" (identifiant de l'image) / usemap ="" (pour utiliser une map comme base pour image )
+
+<map></map> = carte +  attribut : name "" /
+	<area shape="" coords=""(relier au type de shape) href=""(lien de l'image)>
+	(shape = rect -> x1,x2,x3,x4
+			 circle -> x, y, r
+			 poly = x1,y1, x1,x2,..., x10,y10 
+	)
+
+
+
+<figure></figure> = pour indiquer une description courte
+	<img src="">
+	<figcaption>Description...</figcaption>
+
+<picture>= pour permettre d'afficher une autre image en fonction des users parameter
+	<source src=""(source de l'autre image) media=""(parametre de changements d'image)>
+	<img src="" alt = "">
+</picture>	
+
+Sons et Video : 
+
+	audio :  mp3 (compatible partout)
+			 wav (compatible sauf IE)
+			 ogg (compatible sauf IE  et safari)
+
+<audio> = attribut : src ="" + control (parametre en + : (autoplay)(muted)(loop)(preload="auto"/"none"/"metadata")(volume))
+	<source src="" type = "audio/(mp3)(ogg)(wav)"> 
+	message d'erreur... 
+</audio>
+
+
+
+
+	video :  mp4 (compatible partout)
+			 webm (compatible sauf IE et Safari)
+			 ogg (compatible sauf IE  et safari)
+	<video controls>
+		<source src="" type=""(video/(mp4)(wav)(ogg)) poster = "" (miniature.jpg)>
+		Message d'erreur...
+	</video>
+
+Structure page web : 
+
+<div></div> = groupe
+<span></span> = indique une partie d'une ligne
+<main></main> = contenue principal du document et ne peut être creer qu'une fois
+<section></section> = Fait pour etre titré (donc <h1></h1>) et sur plusieurs sectionns, on peut mettre plusieurs h1.
+<article></article> = autonome ou independant
+<header></header> = en tete du site ou en tete d'un article
+<footer></footer> = pied de page ou en pied d'article
+<nav></nav> = navigation souvent lier à une liste
+
+Css : 
+
+<style> = A éviter
+
+</style>
+
+-->

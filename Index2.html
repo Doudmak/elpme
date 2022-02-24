@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style2.css">
+	<link rel="stylesheet" type="text/css" href="style1.css">
+	<title>Plus</title>
+</head>
+<body>
+	
+	<header>
+		<img src="\Image\Logo\Logo_v2.png" alt="logo" id="logo">
+		<a href="index.html"><img src="\Image\home.svg" alt = "Home" id = "img_home"></a>
+		<div id= "user">
+			<a href="\index3.html"><p id = "name_user">Username</p></a>
+			<img src="\Image\user.svg" alt="Photo de l'utilisateur" id ="img_user">
+		</div>
+	</header>
+	<div class="body_back">
+		<div class="body">
+		
+			<div class="intro">
+				<div>
+					<p id="name_group">Inscription</p>
+					<p id ="name_group_description">Entrez les informations du patient :</p>
+				</div>		
+			
+			<form>
+				<div class="form">	
+					<div class = "column">
+						<div class="bloc">
+							<div class ="barre1">
+								<div id="titre">
+									
+									<h2>Identité :</h2>
+
+								</div>
+									
+								<div class="identite">
+									
+									<div class="P_left">
+										<div class="champs">
+											<label for="name">Nom :</label>
+											<input type="text" name="user_name" id="name" placeholder="Dupont">
+										</div>
+
+										<div class="champs">
+											<label for="name">Date de naissance :</label>
+											<input type="date" name="user_name" id="name" placeholder="JJ/MM/AAAA">
+										</div>
+									</div>
+									
+									<div class="P_right">
+										
+										<div class="champs">
+											<label for="surname">Prénom :</label>
+											<input type="text" name="user_surname" id="surname" placeholder="Kevin">	
+										</div>
+
+										<div class="champs">
+											<label for="surname">Sexe :</label>
+											<input type="text" name="user_sexe" id="sexe" placeholder="Homme">	
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="bloc">
+							<div class="barre2">
+								<div><h2>Contact :</h2></div>
+
+								
+								<div class="Contact">
+									
+									<div class="P_left">
+										
+										<div class="champs">
+											<label for="mail">E-Mail :</label>
+											<input type="email" name="user_mail" id="mail"placeholder="Dupont@example.com">
+										</div>
+										
+										<div class="champs">
+											<label for="number">Tel.Domi :</label>
+											<input type="tel" name="user_number_home" placeholder="0143843333">
+										</div>
+
+									</div>
+
+									<div class="P_right">
+
+										<div class="champs">
+											<label for="numero">Tel :</label>
+											<input type="tel" name="user_number" id="number" placeholder="0654893251">
+										</div>
+
+										<div class="champs">
+											<label for= "numero">Tel (proche) :</label>
+											<input type="tel" name="user_number_friend" placeholder="0676886835">
+										</div>	
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="column">
+						<div class ="bloc">
+							
+							<div class ="barre3">
+								<div><h2>Adresse :</h2></div>
+
+								<div class="adresse">
+
+									<div class="P_left">
+										
+										<div class="champs">
+											<label for="numero">Num de Rue :</label>
+											<input type="number" name="user_numbe_street" id="number_street" placeholder="2">
+										</div>
+										
+										<div class="champs">
+											<label for ="C_postal">Code Postal :</label>
+											<input type="number" name="user_number_C_postal" placeholder="75000">
+										</div>
+
+									</div>							
+
+
+									<div class="P_right">
+
+										<div class="champs">
+											<label for="Adress"> Adresse :</label>
+											<input type="text" name="user_adress" id="adress" placeholder="Avenue de la Tour Eiffel">
+										</div>
+
+										<div class="champs">
+											<label for ="Ville"> Ville :</label>
+											<input type="text" name="user_ville" placeholder="Paris">
+										</div>
+									</div>
+								</div>
+							</div>	
+						</div>
+						<div class="bloc">
+						
+							<div class="barre4">
+
+								<div><h2>Santé :</h2></div>
+
+
+								<div class="sante">
+									
+									<div class="P_left">
+										<div class="champs">
+											<label for="securite_s">Num. Sécurité S :</label>
+											<input type="number" name="user_number_securité_sociale" placeholder="62727763253683">
+										</div>
+										
+										<div class="champs">	
+											<label for="code_rattachement">Code de rattachement :</label>
+											<input type="number" name="user_number_securité_sociale" placeholder="62727763253683">
+										</div>
+
+										<!--<div class="champs">
+											<label for="text">Dossier Médical :</label>
+											<input type="text" name="user_doss_medical">
+											
+										</div>-->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="column">
+					<div class="button">
+						<button>Créer</button>
+					</div>
+				</div>
+			
+			</form>
+		</div>
+	</div>
+	<footer>
+	<div class="foot">
+		<div id="div_logo_img">
+			<img src="\Image\Logo\Logo_v.png" id="logo_img">
+		</div>
+		
+		<div class="contact">
+			<h3>Contact</h3>
+			<ul>
+				<li>61 Av. du Général de Gaulle,</li>
+				<li class="espace">94000 Créteil</li>
+				<li class="espace"> 06 95 39 01 96</li>
+				<li>contact@plus.fr</li>
+			</ul>
+
+		</div>
+
+		<div class="navigation">
+			<h3>Navigation</h3>
+			<ul>
+				<a href="Index.html"><li>Accueil</li></a>
+				<a href="Index2.html"><li>Identification Patient</li></a>
+				<a href=""><li>Consentements</li></a>
+				<a href=""><li>Dépôt de valeur</li></a>
+				<a href="Index4.html"><li>Mouvement patient</li></a>
+				<a href=""><li>Gestion des contentieux</li></a>
+			</ul>
+		</div>
+		<div class="structure">
+			<h3>Structure</h3>
+			<ul>
+				<li>Nos services</li>
+				<li>Notre engagements</li>
+				<li>A Propos</li>
+				<li>Contact</li>
+			</ul>
+		</div>
+	</div>
+</footer>
+</body>
+</html>

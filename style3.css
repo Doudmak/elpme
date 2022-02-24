@@ -1,0 +1,74 @@
+/*-------------------- Le corps de la page ------------------- */
+a
+{
+	text-decoration: none;
+}
+	
+p
+{
+	margin-top: 0px;
+}
+
+body
+{
+	height: 100vh;
+	margin: 0px;
+}
+
+.background
+{
+	background: url("image/medical.svg") center right no-repeat;
+	background-size: contain;
+	height: 94vh;
+	display: flex;
+	align-items: center;
+	margin-left: 230px;
+}
+
+.login
+{
+	/*border: 1px solid black;*/
+	height: 400px;
+	width: 400px;
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.title
+{
+	display: flex;
+	justify-content: space-around;
+	color: rgb(0, 206, 200);
+	font-family: calibri;
+	font-weight: bolder;
+	font-size: 55px;
+}
+
+#password, #username
+{
+	height: 60px;
+	width: 350px;
+	background-color: lightgrey;
+	border-radius: 15px;
+	border: none;
+	margin-top: 40px;
+}
+
+#password::placeholder, #username::placeholder
+{
+	padding-left: 15px;
+	font-size: 15px;
+	font-weight: bolder;
+}
+
+.btn
+{
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-around;
+}
+input:not(:placeholder)
+{
+	font-size: 5px;
+}

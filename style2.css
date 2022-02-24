@@ -1,0 +1,109 @@
+
+/*-------------------- Le corps de la page ------------------- */
+
+body
+{
+	height: 100%;
+	margin: 0px;
+}
+
+.body_back
+{
+	background-image: url(/Image/doctor1.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: cover;
+	background-color: rgba(0, 0, 0, 0.0);
+}
+
+.body
+{
+	padding-top:  100px;
+	padding-left : 50px;
+	padding-right: 50px;
+	padding-bottom: 100px;
+
+}
+
+
+#name_group
+{
+	font-size: 40px;
+	font-family: calibri;
+	font-weight: bolder;
+	margin: 0px;
+}
+
+
+
+#name_group_description
+{
+	font-size: 20px;
+	font-family: calibri;
+	font-weight: bolder;
+	color: grey;
+	margin: 0px;
+}
+
+form
+{
+	height: 100%;
+	font-family: calibri;
+	margin-top: 100px;
+}
+
+.form
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;	
+}
+
+h2
+{
+	margin: 15px;
+}
+.column
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.bloc
+{
+	margin-bottom: 30px;
+	background-color:  #F7EBEC;
+	border-radius: 15px ;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.identite, .adresse, .Contact, .sante
+{
+	display: flex;
+}
+
+.P_right,.P_left
+{
+	padding: 10px;
+}
+
+.champs
+{
+	padding: 5px;
+}
+
+
+.button
+{
+	display: flex;
+	justify-content: space-around;
+	margin: 30px;
+}
+
+/* -------------------------- Pied de page -------------------------- */
+
+a
+{
+	text-decoration: none;
+	color: black;
+}
