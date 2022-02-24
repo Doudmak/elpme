@@ -41,7 +41,7 @@ p
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
-	background-image: url(/Image/doctor5.png);
+	background-image: url(Image/doctor5.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -132,7 +132,7 @@ p
 {
 	height: 110px;
 	width: 300px;
-	background-image: url(/Image/cardiologie2.jpg);
+	background-image: url(Image/cardiologie2.jpg);
 	background-position: contain;
 }
 
@@ -140,7 +140,7 @@ p
 {
 	height: 110px;
 	width: 300px;
-	background-image: url(/Image/reanimation2.jpg);
+	background-image: url(Image/reanimation2.jpg);
 	background-position: contain;
 }
 
@@ -148,6 +148,6 @@ p
 {
 	height: 110px;
 	width: 300px;
-	background-image: url(/Image/surgery1.jpg);
+	background-image: url(Image/surgery1.jpg);
 	background-position: contain;
 }

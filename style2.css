@@ -9,7 +9,7 @@ body
 
 .body_back
 {
-	background-image: url(/Image/doctor1.png);
+	background-image: url(Image/doctor1.png);
 	background-repeat: no-repeat;
 	background-position: right;
 	background-size: cover;
