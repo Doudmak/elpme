@@ -1,0 +1,35 @@
+body
+{
+	margin: 0px;
+}
+
+#name_group
+{
+	font-size: 40px;
+	font-family: calibri;
+	font-weight: bolder;
+	margin: 0px;
+}
+#name_group_description
+{
+	font-size: 20px;
+	font-family: calibri;
+	font-weight: bolder;
+	color: grey;
+	margin: 0px;
+}
+p
+{
+	margin: 0px;
+}
+.head1
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #EFF2EF;
+	padding-top:  50px;
+	padding-left : 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+}
