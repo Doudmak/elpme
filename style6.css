@@ -95,6 +95,7 @@ p
 {
 	display: flex;
 	justify-content: space-around;
+	padding-bottom: 10px;
 }
 
 .incard_img
@@ -107,9 +108,26 @@ p
 {
 	display: flex;
 	justify-content: space-around;
+	margin: 5px;
+	font-family: calibri;
 }
 
 .flex h4
 {
-	margin: 12px;
+	margin: 7px;
+}
+
+.card:hover
+{
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+label
+{
+	font-family: calibri;
+}
+
+#input
+{
+	width: 104px;
 }
