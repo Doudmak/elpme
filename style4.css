@@ -26,11 +26,11 @@ p
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: #EFF2EF;
 	padding-top:  50px;
 	padding-left : 50px;
 	padding-right: 50px;
 	padding-bottom: 50px;
+	border-bottom: 1px solid lightgrey;
 }
 .bloc_card
 {
@@ -160,6 +160,8 @@ p
 	padding-bottom: 100px;
 	display: flex;
 	justify-content: space-around;
+	background-image: url(Image/background.png);
+	background-size: contain;
 }
 .card_mouvement
 {
@@ -179,9 +181,14 @@ p
 	background-color: black;
 	background-image: url(Image/city.png);
 	background-size: cover;
+	border-bottom-left-radius: 15px;
+	border-top-left-radius: 15px;
 }
 
-.title
+.Secteur
 {
-
+	font-family: calibri;
+	font-size: 17px;
+	padding-left: 30px;
+	padding-top: 15px;
 }
