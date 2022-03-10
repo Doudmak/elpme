@@ -163,14 +163,21 @@ p
 	background-image: url(Image/background.png);
 	background-size: contain;
 }
-.card_mouvement
+
+#bloc_flex_mouvement
+{
+	display: flex;
+}
+
+.card_mouvement1
 {
 	height: 300px;
-	width: 700px;
+	width: 500px;
 	background-color: #F7EBEC;
 	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 	border-radius: 15px ;
 	display: flex;
+	margin-right: 15px ;
 }
 
 .div_img
@@ -192,3 +199,63 @@ p
 	padding-left: 30px;
 	padding-top: 15px;
 }
+
+.card_mouvement2
+{
+	height: 300px;
+	width: 200px;
+	background-color: #F7EBEC;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+	border-radius: 15px ;
+}
+
+.bonjour
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+}
+.bonjour img 
+{
+	height: 70px;
+	border-radius: 50%;
+	padding-right:4px ;
+	padding-top:6px ;
+}
+.div_incard_description
+{
+	height: 300px;
+	width: 300px;
+}
+
+.title_mouvement
+{
+	display: flex;
+	justify-content: center;
+	border-bottom: 2px solid lightgrey;
+}
+
+#description
+{
+
+	margin: 10px;
+	height: 201px;
+	width: 272px;
+	border-bottom-right-radius: 15px ;
+}
+
+#name_group_description_hospital
+{
+	font-family: calibri;
+	font-weight: bold;
+	font-size: 16px;
+	border-bottom: 1px solid black;
+}
+
+
+
+
+
+
+
+
