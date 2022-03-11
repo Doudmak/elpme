@@ -197,7 +197,7 @@ p
 	font-family: calibri;
 	font-size: 17px;
 	padding-left: 30px;
-	padding-top: 15px;
+	padding-top: 20px;
 }
 
 .card_mouvement2
@@ -214,13 +214,16 @@ p
 	display: flex;
 	justify-content: space-around;
 	align-items: flex-end;
+	border-bottom: 2px solid black;
+	padding-bottom: 3px;
 }
 .bonjour img 
 {
-	height: 70px;
+	height: 66.4px;
 	border-radius: 50%;
 	padding-right:4px ;
-	padding-top:6px ;
+	padding-top:6px 
+
 }
 .div_incard_description
 {
@@ -232,7 +235,8 @@ p
 {
 	display: flex;
 	justify-content: center;
-	border-bottom: 2px solid lightgrey;
+	height: 74.4px;
+	border-bottom: 2px solid black;
 }
 
 #description
@@ -241,6 +245,7 @@ p
 	margin: 10px;
 	height: 201px;
 	width: 272px;
+	border: none;
 	border-bottom-right-radius: 15px ;
 }
 
@@ -248,11 +253,16 @@ p
 {
 	font-family: calibri;
 	font-weight: bold;
-	font-size: 16px;
-	border-bottom: 1px solid black;
+	font-size: 20px;
+	text-align: center;
 }
 
-
+.flex
+{
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-around;
+}
 
 
 
