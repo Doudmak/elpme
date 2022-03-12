@@ -213,7 +213,7 @@ p
 {
 	display: flex;
 	justify-content: space-around;
-	align-items: flex-end;
+	align-items: center;
 	border-bottom: 2px solid black;
 	padding-bottom: 3px;
 }
