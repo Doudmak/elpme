@@ -78,3 +78,42 @@ p
 	border-bottom: 1px solid lightgrey;
 
 }
+
+.flex1
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+.flex
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+#title
+{
+	font-size: 30px;
+	font-family: arial;
+}
+
+.margin_choice
+{
+	margin-left: 30px;
+}
+
+.margin_choice1
+{
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+#top
+{
+	margin-top: 80px;
+}
+
+label
+{
+	font-family: calibri;
+}

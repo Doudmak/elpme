@@ -54,10 +54,16 @@ p
 	border-radius: 30px;
 }
 
-.flex
+.flex1
 {
 	display: flex;
 	justify-content: space-around;
+}
+
+.flex
+{
+	display: flex;
+	justify-content: space-between;
 }
 
 #title
@@ -77,4 +83,24 @@ p
 	border-top: 1px solid lightgrey;
 	border-bottom: 1px solid lightgrey;
 
+}
+.margin_choice
+{
+	margin-left: 30px;
+}
+
+.margin_choice1
+{
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+#top
+{
+	margin-top: 80px;
+}
+
+label
+{
+	font-family: calibri;
 }
