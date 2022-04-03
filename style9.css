@@ -1,0 +1,14 @@
+body { background-image: url("Image/doctor1.png");
+ }
+ img{border-radius: 50%;
+ 	height: 70px;
+ 	width: 70px;
+ }
+header{display: flex;
+	}
+
+h1{font-family: calibri;
+	padding-right: 10px;
+}
+.div{display:flex; 
+justify-content: space-around;}
